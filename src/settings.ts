@@ -27,7 +27,7 @@ export const social = {
 export const template = {
 	website_url: 'https://marvelle-s.github.io/', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: true,
-	transitions: true,
+	transitions: false,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
 	darkTheme: 'forest', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
