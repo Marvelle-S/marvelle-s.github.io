@@ -9,6 +9,9 @@ image: "../../assets/Artwork/OriannaArtwork/OriannaThumbnail.png"
 medium: "Digital"
 ---
 
+A technical exploration into hand-painted aesthetics and stylized lighting. 
+  This project focuses on using Fresnel-driven color gradients and Kuwahara 
+  filtering to achieve a signature League of Legends-inspired look.
 
 ![Alt text](../../assets/Artwork/OriannaArtwork/TU_01.png)
 ![Alt text](../../assets/Artwork/OriannaArtwork/TU_02.png)

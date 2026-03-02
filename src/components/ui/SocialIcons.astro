@@ -9,6 +9,8 @@ import Bluesky from '@/assets/social-icons/bluesky.svg'
 import Inspire from '@/assets/social-icons/inspire.svg'
 import Arxiv from '@/assets/social-icons/arxiv.svg'
 import Orcid from '@/assets/social-icons/orcid.svg'
+import Cara from '@/assets/social-icons/cara.svg'
+
 
 import { social } from '@/settings'
 
@@ -86,6 +88,12 @@ const calculatedContainerSize = activeSocial.length <= 5 ? 'size-12' : activeSoc
 	  {social.orcid !== '' &&
 		<a href={social.orcid} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
 			<Orcid class={calculatedIconSize} fill="currentColor" />
+		</a>
+	}
+	<!-- Cara -->
+	{social.cara !== '' &&
+		<a href={social.cara} target="_blank" class={`${calculatedContainerSize} inline-flex items-center justify-center rounded-xl hover:bg-primary/20 transition-all duration-300`}>
+			<Cara class={calculatedIconSize} fill="currentColor" />
 		</a>
 	}
 </div>

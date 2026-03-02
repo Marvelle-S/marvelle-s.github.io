@@ -14,7 +14,7 @@ export const profile = {
 export const social = {
 	email: 'marve20002@gmail.com',
 	linkedin: 'https://www.linkedin.com/in/marvelle-steven-14a879216/',
-	x: 'https://www.x.com/',
+	x: '',
 	bluesky: '',
 	github: 'https://github.com/Marvelle-S',
 	gitlab: '',
@@ -22,6 +22,7 @@ export const social = {
 	inspire: '',
 	arxiv: '',
 	orcid: '',
+	cara: 'https://cara.app/oshunnin',
 }
 
 export const template = {
@@ -31,7 +32,7 @@ export const template = {
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
 	darkTheme: 'forest', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
-	postPerPage: 5,
+	postPerPage: 6,
 	base: '' // Repository name starting with /
 }
 

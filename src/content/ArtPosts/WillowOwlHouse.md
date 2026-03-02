@@ -7,6 +7,7 @@ image: "../../assets/Artwork/WillowOwlHouse/WillowThumbnail.png"
 medium: "Digital"
 ---
 
+A fanart project that took me a week and 3 days to complete. This is a sculpt artwork made completely from scratch, from 2d character concept to final render. The project was completed using Blender for modeling and rendering, with final touch-ups done in Gimp/Krita.
 
 ![Willow Art](../../assets/Artwork/WillowOwlHouse/WillowFace2.png)
 ![Willow Art](../../assets/Artwork/WillowOwlHouse/WillowFront.png)

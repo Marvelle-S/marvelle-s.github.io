@@ -7,7 +7,7 @@ image: "../../assets/Artwork/SpeedSculpt_1/SpeedSculptThumbnail.png"
 medium: "Digital"
 ---
 
----
+An hour and a half long speed sculpt created purely to test my own ability in character face sculpting.
 
 ![SpeedSculpt Art](../../assets/Artwork/SpeedSculpt_1/Summer_202502.png)
 ![SpeedSculpt Art](../../assets/Artwork/SpeedSculpt_1/Summer_202502Final.png)
