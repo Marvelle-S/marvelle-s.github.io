@@ -12,5 +12,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
     integrations: [react(), tailwind(), sitemap()],
     site: 'https://marvelle-s.github.io',
-    base: template.base,
+    base: '/marvelle-s.github.io',
 });
