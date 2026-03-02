@@ -11,6 +11,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
     integrations: [react(), tailwind(), sitemap()],
-    site: template.website_url,
+    site: 'https://marvelle-s.github.io',
     base: template.base,
 });
