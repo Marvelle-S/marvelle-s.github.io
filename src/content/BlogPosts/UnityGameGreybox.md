@@ -9,13 +9,12 @@ excerpt: "A Unity greybox technical prototype demonstrating core gameplay loops,
 <iframe
   width="560"
   height="315"
-  src="https://www.youtube-nocookie.com/embed/o_caFMXuKcQ"
+  src="https://www.youtube-nocookie.com/embed/9WoTxkkljMs"
   title="Radium Discovery Documentary"
   frameborder="0"
   allowfullscreen>
 </iframe>
 
-{% YouTube url="https://youtu.be/9WoTxkkljMs" /%}
 
 # CSC3231: Druidic Drink
 

@@ -93,21 +93,10 @@ The game loop is designed to balance objective-based tasks with high-risk sub-ob
 ## Debugging and Tools
 
 To ensure technical stability and ease of iteration, I developed a comprehensive set of developer commands:
-
-
-**V / M**: Toggle and show NavMesh visualisation.
-
-
-
-**N**: Toggle enemy pathfinding lines.
-
-
-
-**G**: Toggle gravity for physics testing.
-
-
-
-**C**: Print connected client status for network monitoring.
+- Toggle and show NavMesh visualisation.
+- Toggle enemy pathfinding lines.
+- Toggle gravity for physics testing.
+- Print connected client status for network monitoring.
 
 
 

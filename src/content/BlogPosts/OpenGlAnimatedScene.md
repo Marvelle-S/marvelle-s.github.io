@@ -1,5 +1,5 @@
 ---
-title: "A Open Gl Animated Scene"
+title: "An Open Gl Custom Engine Animated Scene"
 date: "2024-10-31"
 tags: ["C++ & Open GL","Physics and Movement", "Networking", "Environment Design", "Debugging and Tools", "Tutorial"]
 excerpt: "Learn how to embed Spotify, YouTube, and Twitter content directly in your blog
@@ -9,15 +9,12 @@ excerpt: "Learn how to embed Spotify, YouTube, and Twitter content directly in y
 <iframe
   width="560"
   height="315"
-  src="https://www.youtube-nocookie.com/embed/o_caFMXuKcQ"
+  src="https://www.youtube-nocookie.com/embed/ozkcuFumRSw"
   title="Radium Discovery Documentary"
   frameborder="0"
   allowfullscreen>
 </iframe>
 
-
-
-{% YouTube url="https://youtu.be/ozkcuFumRSw" /%}
 
 # CSC8502: Real-Time Time-Skip Technical Demo
 
@@ -74,10 +71,10 @@ The project demonstrates the transition between two distinct biomes using a **He
 
 A robust set of developer tools was integrated to monitor performance and adjust visual fidelity in real-time:
 
-* **F5:** Live reload shaders for rapid visual iteration.
-* **V:** Toggle **Split-Screen Mode**, rendering two independent viewports to screen for camera comparison.
-* **Up/Down Arrows:** Manually increase or decrease blur intensity for testing.
-* **P:** Print active camera coordinates for pathing and level design.
+- Live reload shaders for rapid visual iteration.
+- Toggle **Split-Screen Mode**, rendering two independent viewports to screen for camera comparison.
+- Manually increase or decrease blur intensity for testing.
+- Print active camera coordinates for pathing and level design.
 
 ---
 
