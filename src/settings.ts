@@ -13,7 +13,7 @@ export const profile = {
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
 	email: 'marve20002@gmail.com',
-	linkedin: 'https:://www.linkedin.com/in/marvelle-steven-14a879216',
+	linkedin: 'https://www.linkedin.com/in/marvelle-steven-14a879216/',
 	x: 'https://www.x.com/',
 	bluesky: '',
 	github: 'https://github.com/Marvelle-S',
@@ -26,10 +26,10 @@ export const social = {
 
 export const template = {
 	website_url: 'https://marvelle-s.github.io/', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
-	menu_left: false,
+	menu_left: true,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'forest', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
 	base: '' // Repository name starting with /
