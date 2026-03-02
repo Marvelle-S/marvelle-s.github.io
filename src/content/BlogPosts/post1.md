@@ -5,6 +5,15 @@ tags: ["Physics", "Research"]
 excerpt: "An account of the discovery of radium and its properties."
 ---
 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/5At4fLACyUw"
+  title="Radium Discovery Documentary"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
 # The Discovery of Radium
 
 The discovery of radium marked a significant milestone in the field of radioactivity research.
