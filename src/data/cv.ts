@@ -43,14 +43,15 @@ export const skills = [
 	// },
 ];
 
+// Recent Projects
 export const publications = [
 	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
-		abstract: '',
+		title: 'asd',
+		authors: 'asd',
+		journal: 'ad',
+		time: 'asd',
+		link: 'asd',
+		abstract: 'asd',
 	},
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
