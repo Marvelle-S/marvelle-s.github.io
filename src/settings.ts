@@ -13,7 +13,7 @@ export const profile = {
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
 	email: 'marve20002@gmail.com',
-	linkedin: 'www.linkedin.com/in/marvelle-steven-14a879216',
+	linkedin: 'https:://www.linkedin.com/in/marvelle-steven-14a879216',
 	x: 'https://www.x.com/',
 	bluesky: '',
 	github: 'https://github.com/Marvelle-S',
@@ -32,7 +32,7 @@ export const template = {
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
-	base: '/marvelle-s.github.io' // Repository name starting with /
+	base: '' // Repository name starting with /
 }
 
 export const seo = {
