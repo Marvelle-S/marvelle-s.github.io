@@ -170,7 +170,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-03-02T13:16:15.337Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -190,8 +191,7 @@
               "RelativeToolTip": "src\\components\\ui\\DarkLightController.astro",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T14:06:44.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T14:06:44.843Z"
             },
             {
               "$type": "Document",
@@ -215,7 +215,8 @@
               "RelativeToolTip": "src\\pages\\index.astro",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T13:56:22.204Z"
+              "WhenOpened": "2026-03-02T13:56:22.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -263,7 +264,8 @@
               "RelativeToolTip": "src\\pages\\blog\\[page].astro",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T13:40:39.901Z"
+              "WhenOpened": "2026-03-02T13:40:39.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -287,7 +289,8 @@
               "RelativeToolTip": "src\\pages\\papers.astro",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T13:40:08.648Z"
+              "WhenOpened": "2026-03-02T13:40:08.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -359,7 +362,8 @@
               "RelativeToolTip": "src\\pages\\research.astro",
               "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T13:24:45.27Z"
+              "WhenOpened": "2026-03-02T13:24:45.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -395,7 +399,8 @@
               "RelativeToolTip": "src\\pages\\404.astro",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-02T13:24:04.497Z"
+              "WhenOpened": "2026-03-02T13:24:04.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -453,7 +458,7 @@
               "RelativeDocumentMoniker": "astro.config.mjs",
               "ToolTip": "C:\\Users\\c1022792\\Documents\\Github\\marvelle-s.github.io\\astro.config.mjs",
               "RelativeToolTip": "astro.config.mjs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-03-02T13:00:42.101Z",
               "EditorCaption": ""
