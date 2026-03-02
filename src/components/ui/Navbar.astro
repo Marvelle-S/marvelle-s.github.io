@@ -5,9 +5,8 @@ import SocialIcons from './SocialIcons.astro'
 import ProfilePictures from '@/assets/profile_pictures.jpg'
 import { getCollection } from 'astro:content'
 import { template } from '@/settings'
-
 const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
-
+const isArtPopulated = await getCollection('art').then(collection => collection.length > 0)
 const {fullName, title} = profile
 ---
 <aside
@@ -25,28 +24,25 @@ const {fullName, title} = profile
 			</div>
 			<div class="mx-4 mt-16">
               <ul class="space-y-4 menu grow shrink menu-md overflow-y-auto">
-                <!-- Home stays first -->
                 <li>
                   <a href={`${template.base}/`} class="text-lg font-bold">Home</a>
                 </li>
-
-                <!-- Reordered: Artwork -->
                 {isBlogPopulated && (
                   <li>
                     <a href={`${template.base}/blog/1`} class="text-lg font-bold">Artwork</a>
                   </li>
                 )}
-
-                <!-- Reordered: Projects -->
+                {isArtPopulated && (
+                  <li>
+                    <a href={`${template.base}/art/1`} class="text-lg font-bold">Art Blog</a>
+                  </li>
+                )}
                 <li>
                   <a href={`${template.base}/papers`} class="text-lg font-bold">Projects</a>
                 </li>
-
-                <!-- Remaining items -->
                 <li>
                   <a href={`${template.base}/research`} class="text-lg font-bold">Skills</a>
                 </li>
-
                 <li>
                   <a href={`${template.base}/cv`} class="text-lg font-bold">CV/History</a>
                 </li>

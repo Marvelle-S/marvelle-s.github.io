@@ -1,0 +1,86 @@
+---
+import Pagination from '@/components/ui/Pagination.astro'
+import Layout from '@/layouts/Layout.astro'
+import { Image } from 'astro:assets'
+import { trimExcerpt } from '@/lib/utils'
+import { template } from '@/settings'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths({ paginate }): Promise<Astro.getStaticPathsResult> {
+    const artEntries = await getCollection("art");
+    const posts = artEntries
+        .map(post => ({
+            title: post.data.title,
+            date: post.data.date,
+            badge: post.data.tags?.[0],
+            excerpt: trimExcerpt(post.data.excerpt),
+            image: post.data.image,
+            medium: post.data.medium,
+            slug: `${template.base}/art/${post.id}`,
+        }))
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    return paginate(posts, {
+        pageSize: template.postPerPage,
+    });
+}
+const { page } = Astro.props
+---
+<Layout title='Art'>
+    <div>
+        <h1 class='text-3xl font-bold mb-8'>Art Gallery</h1>
+        <div class='grid gap-8 md:grid-cols-2'>
+            {
+                page.data.map(post => (
+                    <article class='card bg-base-200 transition-all hover:shadow-lg'>
+                        {post.image && (
+                            <figure>
+                                <Image
+                                    src={post.image}
+                                    alt={post.title}
+                                    class='w-full h-56 object-cover'
+                                />
+                            </figure>
+                        )}
+                        <div class='card-body'>
+                            <div class='flex justify-between items-start'>
+                                <h2 class='card-title text-xl'>
+                                    <a href={post.slug} class='hover:text-accent'>
+                                        {post.title}
+                                    </a>
+                                </h2>
+                                {post.badge && (
+                                    <div class='badge badge-accent badge-outline p-4'>
+                                        {post.badge}
+                                    </div>
+                                )}
+                            </div>
+                            <div class='flex gap-4 items-center'>
+                                <time datetime={post.date} class='text-sm text-base-content/70'>
+                                    {new Date(post.date).toLocaleDateString('en-US', {
+                                        year: 'numeric',
+                                        month: 'long',
+                                        day: 'numeric',
+                                    })}
+                                </time>
+                                {post.medium && (
+                                    <span class='text-sm text-base-content/50 italic'>{post.medium}</span>
+                                )}
+                            </div>
+                            <p class='mt-2'>{post.excerpt}</p>
+                            <div class='card-actions justify-end'>
+                                <div class='card-actions justify-end'>
+                                    <a href={post.slug} class='btn btn-sm btn-secondary text-secondary-content'>
+                                        View Piece
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                ))
+            }
+        </div>
+        <div class='flex justify-center mt-8'>
+            <Pagination page={page} />
+        </div>
+    </div>
+</Layout>
