@@ -1,5 +1,5 @@
 ---
-title: "Quake-Style Multiplayer FPS in a Custom C++ Engine"
+title: "Quake-Style PC & PS5 Multiplayer FPS in a Custom C++ Engine"
 date: "2026-04-15"
 tags: ["C++ & OpenGL", "Multiplayer Systems", "PS5 Rendering", "Gameplay Mechanics", "Audio Engineering", "Debugging and Tools"]
 excerpt: "A fast-paced, Quake-inspired FPS built in a custom C++ engine over one month by a team of seven. Features cross-platform rendering (OpenGL & PS5), local multiplayer, dynamic audio, and a unique melee knockback system for chaotic, arcade-style combat."
