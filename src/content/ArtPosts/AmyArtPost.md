@@ -1,6 +1,6 @@
 ---
 title: "Amy the Hedgehog - Sonic The Hedgehog Artwork"
-date: "2025-04-18"
+date: "2025-04-17"
 excerpt: "A stylized character study marking my one year milestone into 3D art. 
   This project was solely focused on translating a 2D character design into a 3D form, 
   utilizing vertex painting and professional grade planar lighting setups 

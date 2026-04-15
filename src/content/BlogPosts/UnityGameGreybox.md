@@ -1,6 +1,6 @@
 ---
 title: "Druidic Drink - A Unity Greybox Demo"
-date: "2024-10-31"
+date: "2024-11-24"
 tags: ["Unity GreyBoxing","Game Design","Physics and Movement", "Environment Design", "Debugging and Tools", "Tutorial"]
 excerpt: "A Unity greybox technical prototype demonstrating core gameplay loops, 
   physics-based movement, and time-management systems in a magical cafe setting."
@@ -10,13 +10,13 @@ excerpt: "A Unity greybox technical prototype demonstrating core gameplay loops,
   width="560"
   height="315"
   src="https://www.youtube-nocookie.com/embed/9WoTxkkljMs"
-  title="Radium Discovery Documentary"
+  title="Druidic Drink Showcase"
   frameborder="0"
   allowfullscreen>
 </iframe>
 
 
-# CSC3231: Druidic Drink
+# Druidic Drink
 
 **Druidic Drink** is a greybox technical prototype developed to demonstrate core gameplay loops in a time-management and puzzle-solving environment. Built with a focus on functionality and iterative design, this project showcases a custom-tuned **rigid body physics movement system**, a **multi-stage crafting engine**, and a **layered environment design** using the Unity Cinemachine package.
 

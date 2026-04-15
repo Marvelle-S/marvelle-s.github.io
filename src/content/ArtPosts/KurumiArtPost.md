@@ -1,6 +1,6 @@
 ---
 title: "Kurumi - Animated Character Fanart"
-date: "2025-04-18"
+date: "2025-08-16"
 excerpt: "A fanart piece a friend requested of me for a character from the show Date A Live."
 tags: ["Texturing", "Characetr Design", "Hand-Painted Textures", "Custom Shaders", "Compositing", "Posing"]
 image: "../../assets/Artwork/KurumiArtwork/KurumiThumbnail.png"

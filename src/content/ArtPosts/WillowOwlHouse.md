@@ -1,6 +1,6 @@
 ---
 title: "Willow - The Owl House Artwork"
-date: "2025-04-18"
+date: "2025-07-25"
 excerpt: "A fanart project that took me a week and 3 days to complete. This is a sculpt artwork made completely from scratch, from 2d character concept to final render. The project was completed using Blender for modeling and rendering, with final touch-ups done in Gimp/Krita."
 tags: ["Full Sculpt","Hand-Painted Textures", "Custom Shaders", "Compositing", "Character Sculpting", "Vertex Colouring", "Posing", "Shrink Wrapping"]
 image: "../../assets/Artwork/WillowOwlHouse/WillowThumbnail.png"

@@ -1,16 +1,15 @@
 ---
 title: "An Open Gl Custom Engine Animated Scene"
-date: "2024-10-31"
+date: "2025-11-13"
 tags: ["C++ & Open GL","Physics and Movement", "Networking", "Environment Design", "Debugging and Tools", "Tutorial"]
-excerpt: "Learn how to embed Spotify, YouTube, and Twitter content directly in your blog
-  posts using Markdoc tags or Blocks"
+excerpt: "A program made as an exploration of real-time rendering in a custom C++ OpenGL engine. Contains deferred shading and skeletal animation alongside cinematic post-processing to depict a 1,000-year environmental transformation."
 ---
 
 <iframe
   width="560"
   height="315"
   src="https://www.youtube-nocookie.com/embed/ozkcuFumRSw"
-  title="Radium Discovery Documentary"
+  title="Animated Scene Showcase"
   frameborder="0"
   allowfullscreen>
 </iframe>

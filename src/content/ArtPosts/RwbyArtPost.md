@@ -1,6 +1,6 @@
 ---
 title: "Ruby - RWBY The Animated Series Artwork"
-date: "2025-04-18"
+date: "2025-05-31"
 excerpt: "A RWBY fanart project that took me a week and 3 days to complete. This is a sculpt artwork, from 2d charactetr concept to final render. The project was completed using Blender for modeling and rendering, with final touch-ups done in Gimp/Krita."
 tags: ["Custom-Textures", "Custom Shaders", "Compositing", "Hair Particles", "Character Sculpting", "Vertex Colouring", "Posing"]
 image: "../../assets/Artwork/RwbyArtwork/RubyThumbnail.png"

@@ -1,6 +1,6 @@
 ---
 title: "Orianna - A League of Legends Character Sculpt"
-date: "2025-04-18"
+date: "2025-06-24"
 excerpt: "A technical exploration into hand-painted aesthetics and stylized lighting. 
   This project focuses on using Fresnel-driven color gradients and Kuwahara 
   filtering to achieve a signature League of Legends-inspired look."

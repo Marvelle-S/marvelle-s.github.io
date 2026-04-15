@@ -1,6 +1,6 @@
 ---
 title: "Aisling"
-date: "2024-01-01"
+date: "2024-10-17"
 excerpt: "A sculpt made in the earlier months of my art journey."
 tags: ["illustration", "Blender", "Hand-Painted Textures", "Custom Shaders", "Compositing", "Character Sculpting"]
 image: "../../assets/Artwork/AislingArtwork/AislingThumbnail.png"

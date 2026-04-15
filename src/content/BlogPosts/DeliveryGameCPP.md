@@ -1,16 +1,15 @@
 ---
 title: "A C++ Glass Ball Delivery Game"
-date: "2024-10-31"
+date: "2025-12-11"
 tags: ["C++ & Open GL","Physics and Movement", "AI and Pathfinding", "Networking", "Gameplay and Level Design", "Debugging and Tools"]
-excerpt: "Learn how to embed Spotify, YouTube, and Twitter content directly in your blog
-  posts using Markdoc tags or Blocks."
+excerpt: "A dive into programming a cooperative multiplayer physics game in C++, featuring custom rigid body simulation, client-server networking, simple UI design,and AI-driven enemies navigating an environment."
 ---
 
 <iframe
   width="560"
   height="315"
   src="https://www.youtube-nocookie.com/embed/o_caFMXuKcQ"
-  title="Radium Discovery Documentary"
+  title="Glass Ball Showcase"
   frameborder="0"
   allowfullscreen>
 </iframe>
