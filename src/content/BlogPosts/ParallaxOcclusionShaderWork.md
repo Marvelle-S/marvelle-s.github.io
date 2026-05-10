@@ -1,13 +1,13 @@
 ---
-
-## title: "Parallax Occlusion Shader Exploration in OpenGL: Shadows and Silhouettes"
+title: "Parallax Occlusion Shader Exploration in OpenGL: Shadows and Silhouettes"
 date: "2026-05-15"
 tags: ["OpenGL", "GLSL", "Computer Graphics", "Shaders", "Real-time Rendering"]
 excerpt: "A technical breakdown of implementing Parallax Occlusion Mapping (POM) in OpenGL, alongside Geometry shaders for silhouette correction and Fragment-based raymarching for self-shadowing."
+---
 
 # Beyond Normal Mapping: Implementing Advanced POM
 
-Standard normal mapping provides a decent illusion of detail, but it falls flat—quite literally—under closer inspection. To bridge the gap between flat textures and heavy geometry, I developed a multi-stage **Parallax Occlusion Mapping (POM)** pipeline in OpenGL.
+Standard normal mapping provides a decent illusion of detail, but it literally falls flat under a closer glance. To bridge the gap between flat textures and heavy geometry, I developed a multi-stage **Parallax Occlusion Mapping (POM)** pipeline in OpenGL.
 
 Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looked to go beyond simple depth offsets. I explored several variations to balance visual fidelity against performance, incorporating self-shadowing and geometry shader-assisted silhouette correction.
 
@@ -55,8 +55,6 @@ To find the exact intersection point, the shader steps through the heightmap usi
 1. **Linear Search:** A coarse search to find the approximate layer where the ray "enters" the surface.
 2. **Refined Search:** Traditionally a binary search, but I also implemented **Secant-based refinement** to improve convergence speed and smoothness.
 
-$$P_{final} = P_{in} + V \cdot \frac{h_{prev} - d_{prev}}{ (h_{prev} - d_{prev}) - (h_{curr} - d_{curr}) }$$
-
 ### Self-Shadowing (POM Shadows)
 
 Shadows are calculated by casting a **secondary ray** from the intersection point back toward the light source. If this ray encounters a "peak" in the heightmap before escaping the surface, the fragment is shadowed.
@@ -81,6 +79,6 @@ Shadows are calculated by casting a **secondary ray** from the intersection poin
 
 ## Reflections and Future Iterations
 
-While the Geometry shader approach for silhouettes is robust, it can be a performance hog on complex meshes. For future iterations, I’m looking into **Quad-Tree Displacement Mapping** to move away from linear stepping toward a hierarchical search, allowing for deeper "virtual" geometry without the massive overhead.
+While the Geometry shader approach for silhouettes is robust, it can be a performance hog on complex meshes. For future iterations, I'm looking into **Quad-Tree Displacement Mapping** to move away from linear stepping toward a hierarchical search, allowing for deeper "virtual" geometry without the massive overhead.
 
 The greatest "growing pain" of this project was navigating the steep learning curve of the OpenGL pipeline, especially into what I considered a deep part of the pool in the case of parallel occlusion mapping. Iterating through various versions of raymarching logic was a challenge; especially handling visual artifacts on smooth-shaded meshes from Blender; but it has proven to be an invaluable deep dive into low level geometry and lighting manipulation.
