@@ -1,7 +1,7 @@
 ---
 
 ## title: "Parallax Occlusion Shader Exploration in OpenGL: Shadows and Silhouettes"
-date: "2026-05-10"
+date: "2026-05-15"
 tags: ["OpenGL", "GLSL", "Computer Graphics", "Shaders", "Real-time Rendering"]
 excerpt: "A technical breakdown of implementing Parallax Occlusion Mapping (POM) in OpenGL, alongside Geometry shaders for silhouette correction and Fragment-based raymarching for self-shadowing."
 
