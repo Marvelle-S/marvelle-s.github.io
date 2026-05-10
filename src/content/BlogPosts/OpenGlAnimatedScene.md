@@ -44,7 +44,7 @@ The project manages complex hierarchical relationships and movement through a st
 To enhance the "Time-Skip" narrative, I developed a suite of custom post-processing shaders.
 
 * **Dynamic Gaussian Blur:** A high-intensity blur effect is automatically triggered during transition sequences to ease the visual shift between environments.
-* **Environmental Fog:** A white fog effect was implemented that reacts to the scene’s lighting, adding depth and atmosphere to the desert wasteland.
+* **Environmental Fog:** A white fog effect was implemented that reacts to the scene's lighting, adding depth and atmosphere to the desert wasteland.
 * **Environment Mapping:** Utilizes dual **Skybox Cubemaps** (Forest and Desert) that swap dynamically based on the active time period.
 
 ---
