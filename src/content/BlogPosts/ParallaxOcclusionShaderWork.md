@@ -15,12 +15,18 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
 
 ## Approaches to Occlusion Mapping
 
+![Alt text](../../assets/Projects/PPOM/1_POMOFF.png)
+
 Over this month-long project, I explored four distinct methods to simulate depth, each offering unique trade-offs:
 
 * **Basic POM:** Standard layered depth traversal. It provides convincing surface depth at a relatively low computational cost.
+![Alt text](../../assets/Projects/PPOM/2_POMON.png)
 * **Secant POM:** An upgrade to the search algorithm. It uses secant-based intersection refinement to converge faster, significantly reducing visible "stepping" artifacts.
+![Alt text](../../assets/Projects/PPOM/3_POMIterative.png)
 * **Prism POM:** A more advanced technique using prism-style depth volumes. This better preserves silhouettes and edge definition, especially at sharp viewing angles.
+![Alt text](../../assets/Projects/PPOM/12_POMPrism.png)
 * **SSAO (Screen Space Ambient Occlusion):** Implemented primarily as a baseline comparison to demonstrate the difference between lightweight screen-space shadows and true depth-based raymarching.
+![Alt text](../../assets/Projects/PPOM/PrismCube.png)
 
 ---
 
