@@ -13,6 +13,19 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
 
 ---
 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/9clJemVSfw0"
+  title="PPOM Showcase"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+*Above is only a brief showcase of the final result of solely the visual aspect of specifically Prism POM. The rest of this project was a deep dive into shader programming, particularly in the realm of parallax occlusion mapping and its associated challenges.
+
+---
+
 ## Approaches to Occlusion Mapping
 
 ![Alt text](../../assets/Projects/PPOM/1_POMOFF.png)
