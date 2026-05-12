@@ -22,8 +22,8 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
   allowfullscreen>
 </iframe>
 
-*Above is only a brief betemporary showcase of specifically Prism POM which will be replaced/expanded upon in future updates. 
-This project was a deep dive into shader programming, particularly in the realm of parallax occlusion mapping and its associated challenges wholly.
+*Above is only a brief showcase of specifically Prism POM which will be replaced/expanded upon in future updates. 
+This project was a deep dive into shader programming, particularly in the realm of parallax occlusion mapping and its associated challenges as a whole including other methods described in the following sections.
 
 ---
 
