@@ -1,6 +1,6 @@
 export const profile = {
 	fullName: 'Marvelle Steven',
-	title: 'Student - ',
+	title: 'Student',
 	institute: 'Newcastle University',
 	author_name: 'Marvelle Steven', // Author name to be highlighted in the papers section
 	research_areas: [
