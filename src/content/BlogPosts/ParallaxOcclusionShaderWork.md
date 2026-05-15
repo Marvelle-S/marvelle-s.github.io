@@ -13,6 +13,7 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
 
 ---
 
+*Showcase of Prism POM implementation.*
 <iframe
   width="560"
   height="315"
@@ -22,9 +23,10 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
   allowfullscreen>
 </iframe>
 
-*Showcase of Prism POM implementation.*
+
 ---
 
+*Full POM Showcase*
 <iframe
   width="560"
   height="315"
@@ -34,7 +36,7 @@ Inspired by the seminal work of **Natalya Tatarchuk**, this implementation looke
   allowfullscreen>
 </iframe>
 
-*Full POM Showcase*
+
 ---
 
 ## Approaches to Occlusion Mapping
