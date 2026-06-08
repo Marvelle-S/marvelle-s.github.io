@@ -1,5 +1,5 @@
 ---
-title: "Character Modelling Practise"
+title: "Character Modelling Practice"
 date: "2026-05-29"
 excerpt: "A Custom Design for the character Yuzuha Lee"
 tags: ["illustration", "Blender", "Hand-Painted Textures", "Custom Shaders", "Compositing", "Character Sculpting"]
@@ -16,3 +16,5 @@ medium: "Digital"
 ![Yuzuha Lee Full Sculpt](../../assets/Artwork/YuzuhaArtwork/s1.jpg)
 ![Yuzuha Lee Full Sculpt](../../assets/Artwork/YuzuhaArtwork/www.jpg)
 ![Yuzuha Lee Full Sculpt](../../assets/Artwork/YuzuhaArtwork/ww.jpg)
+Personal Reference Board for this Artwork:
+![Yuzuha Lee Full Sculpt](../../assets/Artwork/YuzuhaArtwork/yuzaboard.png)
